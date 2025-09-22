@@ -117,7 +117,7 @@ ol {
   width: 194px;
   height: 103px;
   object-fit: cover;
-  object-position: center center;
+  object-position: center;
 }
 
 .content__video-card-description-container {
@@ -177,6 +177,7 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   text-transform: uppercase;
+  line-height: 100%;
   font-weight: 700;
   font-size: 30px;
   font-family: 'Oswald', sans-serif;
@@ -273,18 +274,18 @@ ol {
   background-color: transparent;
   font-weight: 700;
   font-size: 18px;
+  min-height: 34px;
+  font-family: 'Fira Sans Condensed', sans-serif;
   cursor: pointer;
 }
 
 .search-form__submit-button {
-  min-height: 34px;
   width: 194px;
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  min-height: 34px;
 }
 
 .button:active {
